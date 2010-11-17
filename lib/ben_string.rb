@@ -3,8 +3,14 @@ class BenString < String
 
   public
 
+    def initialize( str = '' )
+      super( str )
+
+      @bool_value = !!self
+    end
+
     def to_bool()
-      !!self
+      @bool_value || !!self
     end
 
     def to_ben_s()
