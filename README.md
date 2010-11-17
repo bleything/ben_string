@@ -18,6 +18,16 @@ Awesomeness.
 
     $ [sudo] gem install ben_string
 
+## CONTRIBUTORS:
+
+* [John Barnette][jbarnette]
+* [Leigh Caplan][texel]
+* [Yossef Mendelssohn][ymendel]
+
+[jbarnette]: http://github.com/jbarnette
+[ymendel]: http://github.com/ymendel
+[texel]: http://github.com/texel
+
 ## LICENSE:
 
 (The WTFPL)
