@@ -11,4 +11,15 @@ class TestBenString < Test::Unit::TestCase
     str = BenString.new
     assert_equal str, str.to_ben_s
   end
+
+  def test_not_in_use
+    GC.start
+    assert !BenString.in_use?
+  end
+
+  def test_in_use
+    str = BenString.new
+    assert BenString.in_use?
+  end
+
 end
