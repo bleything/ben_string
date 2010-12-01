@@ -4,7 +4,7 @@ class BenString < String
   public
        
     def to_bool()
-      !!self
+      return !!self
     end
 
     def to_ben_s()     
