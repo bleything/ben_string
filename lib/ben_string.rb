@@ -12,7 +12,10 @@ class BenString < String
     end
     VERSION = ::BenString::Version.version
   end
-  VERSION = ::BenString::Version::VERSION
+
+  include Version
+  # Workaround for Hoe
+  # VERSION = '1.1.0'
  
   public
        
