@@ -4,7 +4,7 @@ class BenString < String
     MAJOR = 1
     MINOR = 1
     BUGFX = 0  
-    def self.version(sep = ".")
+    def self.version(sep = '.')
       return [MAJOR, MINOR, BUGFX].join(sep)
     end
     VERSION = ::BenString::Version.version
