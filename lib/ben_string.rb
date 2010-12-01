@@ -1,4 +1,12 @@
 class BenString < String
+  module Version
+    MAJOR = 1
+    MINOR = 1
+    BUGFX = 0
+
+    VERSION = [MAJOR, MINOR, BUGFX].join('.')
+  end
+
   VERSION = '1.1.0'
 
   public
