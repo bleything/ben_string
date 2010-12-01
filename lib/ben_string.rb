@@ -1,5 +1,7 @@
 class BenString < String
   module Version
+    # FIXME: Refactor this to be read from a YAML file
+
     MAJOR = 1
     MINOR = 1
     BUGFX = 0
