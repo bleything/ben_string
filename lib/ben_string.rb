@@ -12,7 +12,7 @@ class BenString < String
     VERSION = ::BenString::Version.version
   end
 
-  VERSION = '1.1.0'
+  VERSION = ::BenString::Version::VERSION
 
   public
        
