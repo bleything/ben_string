@@ -10,12 +10,22 @@ class BenString < String
         return [MAJOR, MINOR, BUGFX].join(sep)
       end
     end
+
     VERSION = ::BenString::Version.version.freeze
   end
 
   include Version
   # Workaround for Hoe
   # VERSION = '1.1.0'
+  
+  class << self
+    public
+      def in_use?
+        counts = Hash.new(0)
+        ObjectSpace.each_object { |o| counts[o.class] += 1 }
+        counts[self] > 0
+      end
+  end
  
   public
        
