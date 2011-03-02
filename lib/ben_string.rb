@@ -21,9 +21,7 @@ class BenString < String
   class << self
     public
       def in_use?
-        counts = Hash.new(0)
-        ObjectSpace.each_object { |o| counts[o.class] += 1 }
-        counts[self] > 0
+        ObjectSpace.each_object(self).any? { |o| self === o }
       end
   end
  
