@@ -20,13 +20,17 @@ Awesomeness.
 
 ## CONTRIBUTORS:
 
+* [Aaron Patterson][tenderlove]
 * [John Barnette][jbarnette]
 * [Leigh Caplan][texel]
+* [Nathan Witmer][aniero]
 * [Yossef Mendelssohn][ymendel]
 
+[tenderlove]: http://github.com/tenderlove
 [jbarnette]: http://github.com/jbarnette
-[ymendel]: http://github.com/ymendel
 [texel]: http://github.com/texel
+[aniero]: http://github.com/aniero
+[ymendel]: http://github.com/ymendel
 
 ## LICENSE:
 
