@@ -2,7 +2,7 @@ class BenString < String
   module Version
     # FIXME: Refactor this to be read from a YAML file
     MAJOR = 1
-    MINOR = 1
+    MINOR = 2
     BUGFX = 0  
 
     class << self
@@ -16,7 +16,7 @@ class BenString < String
 
   include Version
   # Workaround for Hoe
-  # VERSION = '1.1.0'
+  # VERSION = '1.2.0'
   
   class << self
     public
