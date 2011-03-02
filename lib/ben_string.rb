@@ -10,7 +10,7 @@ class BenString < String
         return [MAJOR, MINOR, BUGFX].join(sep)
       end
     end
-    VERSION = ::BenString::Version.version
+    VERSION = ::BenString::Version.version.freeze
   end
 
   include Version
@@ -19,7 +19,7 @@ class BenString < String
  
   public
        
-    def to_bool()
+    def to_bool( )
       return !!self
     end
     def to_ben_s()     
