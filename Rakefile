@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'hoe'
 
+Hoe.plugin :doofus, :git, :seattlrb
+
 Hoe.spec 'ben_string' do
   developer 'Ben Bleything', 'ben@bleything.net'
 
