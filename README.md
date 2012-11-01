@@ -18,6 +18,10 @@ Awesomeness.
 
     $ [sudo] gem install ben_string
 
+## DOES IT WORK:
+
+Travis says: [![Build Status](https://secure.travis-ci.org/bleything/ben_string.png)](http://travis-ci.org/bleything/ben_string)
+
 ## CONTRIBUTORS:
 
 * [Aaron Patterson][tenderlove]
