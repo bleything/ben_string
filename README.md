@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/bleything/ben_string.png)](http://travis-ci.org/bleything/ben_string)
+[![Build Status](https://secure.travis-ci.org/bleything/ben_string.png)](http://travis-ci.org/bleything/ben_string) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/bleything/ben_string)
 
 # ben_string
 
