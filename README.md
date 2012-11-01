@@ -2,6 +2,8 @@
 
 * http://github.com/bleything/ben_string
 
+[![Build Status](https://secure.travis-ci.org/bleything/ben_string.png)](http://travis-ci.org/bleything/ben_string)
+
 ## DESCRIPTION:
 
 It's my special string.
@@ -20,7 +22,7 @@ Awesomeness.
 
 ## DOES IT WORK:
 
-Travis says: [![Build Status](https://secure.travis-ci.org/bleything/ben_string.png)](http://travis-ci.org/bleything/ben_string)
+Sadly, not on jruby.
 
 ## CONTRIBUTORS:
 
