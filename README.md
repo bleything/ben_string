@@ -1,8 +1,8 @@
+[![Build Status](https://secure.travis-ci.org/bleything/ben_string.png)](http://travis-ci.org/bleything/ben_string)
+
 # ben_string
 
 * http://github.com/bleything/ben_string
-
-[![Build Status](https://secure.travis-ci.org/bleything/ben_string.png)](http://travis-ci.org/bleything/ben_string)
 
 ## DESCRIPTION:
 
@@ -20,9 +20,9 @@ Awesomeness.
 
     $ [sudo] gem install ben_string
 
-## DOES IT WORK:
+## DOES IT WORK ON JRUBY?
 
-Sadly, not on jruby.
+No.
 
 ## CONTRIBUTORS:
 
