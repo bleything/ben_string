@@ -18,7 +18,7 @@ class TestBenString < Test::Unit::TestCase
   end
 
   def test_in_use
-    str = BenString.new
+    BenString.new
     assert BenString.in_use?
   end
 
