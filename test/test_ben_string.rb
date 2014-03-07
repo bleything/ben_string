@@ -1,7 +1,7 @@
-require "test/unit"
+require "minitest/autorun"
 require "ben_string"
 
-class TestBenString < Test::Unit::TestCase
+class TestBenString < Minitest::Test
   def test_to_bool
     str = BenString.new
     assert str.to_bool
