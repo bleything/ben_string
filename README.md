@@ -24,6 +24,10 @@ Awesomeness.
 
 No.
 
+## DOES IT WORK ON RUBINIUS?
+
+Maybe.
+
 ## CONTRIBUTORS:
 
 * [Aaron Patterson][tenderlove]
