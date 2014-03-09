@@ -35,12 +35,14 @@ Maybe.
 * [Leigh Caplan][texel]
 * [Nathan Witmer][aniero]
 * [Yossef Mendelssohn][ymendel]
+* [Davy Stevenson][davy]
 
 [tenderlove]: http://github.com/tenderlove
 [jbarnette]: http://github.com/jbarnette
 [texel]: http://github.com/texel
 [aniero]: http://github.com/aniero
 [ymendel]: http://github.com/ymendel
+[davy]: http://github.com/davy
 
 ## LICENSE:
 
